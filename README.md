@@ -7,4 +7,4 @@ You will need to have a twitter developer account and fill in the x's for:
   access_key = 'xxxx'
   access_secret = 'xxxx'
   
-Create a folder titled 'data' and inside 'data' create another folder titled 'data_extraction'. Leave the contents blank. 
+If you don't have one, there is a link in script.py
