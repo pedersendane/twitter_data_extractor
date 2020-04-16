@@ -9,6 +9,10 @@ from textblob import TextBlob
 import preprocessor as p
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from pathlib import Path 
+
+#create the necessary directory
+Path('data/data_extraction').mkdir(parents=True, exist_ok=True)
 
 # Twitter credentials for the app
     #consumer_key and  secret are for the api
